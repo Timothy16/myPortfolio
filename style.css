@@ -1,0 +1,216 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-image: url("pic/back.jpeg");
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_show{
+
+    opacity: 1;
+}
+.nav{
+    width: 100%;
+    opacity: 1;
+}
+.icon{
+    float: right;
+    position: relative;
+    top: -40px;
+    left: -30px;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 20px;  
+    font-weight: bolder; 
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    background-color: hsl(231, 46%, 43%);
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(160, 113, 12);
+}
+.center{
+    position: absolute;
+    color:  hsl(231, 46%, 43%);
+    top: 30%;
+    text-shadow:  1px 1px;
+    display: block;
+    left: 25%;
+    transform: translate(0%);
+    font-size: 40px;
+    letter-spacing: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.wrapper{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 10%;
+    /* text-align: center; */
+}
+.card_info{
+    margin-top: 20px;
+    font-weight: bolder;
+    word-spacing: 0.20rem;
+    letter-spacing: 0.20rem;
+    font-size: 18px;
+    position: relative;
+    padding: 30px;
+    left: 20%;
+    border: 1px solid hsl(231, 46%, 43%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-color: hsl(231, 46%, 43%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pic {
+    margin-right: 10%;
+    margin-top: 20px;
+    /* background-image: url("pic/Intersect.png"); */
+}
+.about{
+    font-size: 20px;
+    width: 100%;
+    word-break: keep-all;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.border_underline{
+    border: solid;
+    width: 20%;
+    color: hsl(231, 46%, 43%);
+}
+.border_underline2{
+    border: solid;
+    width: 10%;
+    color: hsl(231, 46%, 43%);
+}
+.border_underline3{
+    border: solid;
+    width: 50%;
+    color: white;
+}
+.border_profile{
+    border: 1px solid;
+    width: 20%;
+    color: white;
+}
+.portfolio{
+    margin-top: 40px;
+    position: relative;
+    left: 10%;
+    /* border: solid; */
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    height: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+.card img{
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.contact_form{
+    position: relative;
+    padding: 20px;
+    left: 40%;
+    border: 1px solid hsl(231, 46%, 43%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 25%;
+    height: 500px;
+    color: white;
+    background-color: hsl(231, 46%, 43%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+input[type=text]{
+    padding: 15px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: hsl(231, 46%, 43%);
+    width: 75%;
+    outline: none;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: hsl(231, 46%, 43%);
+    outline: none;
+    color: white;
+    width: 75%;
+    padding: 10px;
+    font-size: 15px;
+}
+::placeholder{
+    color: white;
+}
+input[type=button]{
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    color: hsl(231, 46%, 43%);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+input[type=button]:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(130, 137, 238);
+}
+
+.foot{
+    text-transform: none !important;
+}
+.footer a:hover{
+    background-color: none !important;
+}
